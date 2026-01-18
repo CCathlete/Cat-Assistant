@@ -8,6 +8,7 @@ from pathlib import Path
 from types import FrameType
 from dataclasses import dataclass
 from multiprocessing import Process
+from infrastructure.env import Env
 from returns.future import FutureResult
 
 from .dependency_container import Container
@@ -22,6 +23,7 @@ class AppController:
     project_root: Path
     logfile_size_limit_MB: int
     logger: logging.Logger
+    env: Env
 
     def serve_openwebui_process(self) -> Process:
         return Process(target=self._run_openwebui, name="OpenWebUIServer", daemon=False)
@@ -48,12 +50,15 @@ class AppController:
         
         bin_dir: Path = Path(sys.executable).parent
         openwebui: Path = bin_dir / "open-webui"
+        owebui_url: str | bool | int | float = self.env.vars.get("OPENWEBUI_URL", "")
+        assert isinstance(owebui_url, str)
+        owebui_port: str = owebui_url.split(":")[1] if owebui_url else "3300"
 
         while running:
             try:
                 # Running without capture_output to see the server logs
                 subprocess.run(
-                    [str(openwebui), "serve", "--host", "0.0.0.0", "--port", "3000"],
+                    [str(openwebui), "serve", "--host", "0.0.0.0", "--port", owebui_port],
                     check=True
                 )
             except subprocess.CalledProcessError as e:
