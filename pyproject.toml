@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Cat-Assistant"
+version = "1.0.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "returns",
+    "pydantic",
+    "dependency-injector",
+    "httpx",
+    "structlog",
+    "dotenv",
+    "open_webui",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+run-app = "control.main:main"
+just-serve = "control.openwebui_serv:main"
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+mypy_path = ["stubs"]
