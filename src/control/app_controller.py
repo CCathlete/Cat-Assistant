@@ -52,7 +52,7 @@ class AppController:
         openwebui: Path = bin_dir / "open-webui"
         owebui_url: str | bool | int | float = self.env.vars.get("OPENWEBUI_URL", "")
         assert isinstance(owebui_url, str)
-        owebui_port: str = owebui_url.split(":")[1] if owebui_url else "3300"
+        owebui_port: str = owebui_url.split(":")[2] if owebui_url else "3300" # https://[...]:PORT
 
         while running:
             try:

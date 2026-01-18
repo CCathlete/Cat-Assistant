@@ -21,7 +21,7 @@ where = ["src"]
 
 [project.scripts]
 run-app = "control.main:main"
-just-serve = "control.openwebui_serv:main"
+just-serve = "control.openwebui_serve:main"
 
 [tool.mypy]
 python_version = "3.11"
