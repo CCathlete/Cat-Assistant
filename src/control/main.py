@@ -36,7 +36,7 @@ def run_app(config: dict[str, Any]) -> Result[None, Exception]:
         project_root=config["project_root"],
         logfile_size_limit_MB=config["logfile_size_limit_MB"],
         logger=logger,
-        env=container.env,
+        env=container.env(),
     )
 
     return Success(controller).map(execute_lifecycle)
