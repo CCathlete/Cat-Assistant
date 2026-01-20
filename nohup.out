@@ -1,0 +1,570 @@
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+/root/Repos/Cat-Assistant/.venv/lib/python3.11/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.7.2 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 2967.81it/s]
+INFO:     Started server process [26075]
+INFO:     Waiting for application startup.
+2026-01-19 11:22:41.121 | INFO     | open_webui.utils.logger:start_logger:166 - GLOBAL_LOG_LEVEL: INFO
+2026-01-19 11:22:41.123 | INFO     | open_webui.main:lifespan:604 - Installing external dependencies of functions and tools...
+2026-01-19 11:22:41.177 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:286 - No requirements found in frontmatter.
+2026-01-19T12:01:31Z INF Starting tunnel tunnelID=d020c4b1-f927-48ce-ad01-1cf995ba9bc1
+2026-01-19T12:01:31Z INF Version 2025.11.1 (Checksum 9979dc152097a29b6de4d1ef13e2f1821c67a6f096f88cc18f0fd25106305d3a)
+2026-01-19T12:01:31Z INF GOOS: linux, GOVersion: go1.24.9, GoArch: arm64
+2026-01-19T12:01:31Z INF Settings: map[cred-file:/root/.cloudflared/d020c4b1-f927-48ce-ad01-1cf995ba9bc1.json credentials-file:/root/.cloudflared/d020c4b1-f927-48ce-ad01-1cf995ba9bc1.json]
+2026-01-19T12:01:31Z INF Autoupdate frequency is set autoupdateFreq=86400000
+2026-01-19T12:01:31Z INF Generated Connector ID: dff2dd1b-b6e0-4f48-87a2-deb0d08629b6
+2026-01-19T12:01:31Z INF Initial protocol quic
+2026-01-19T12:01:31Z INF ICMP proxy will use 192.168.100.102 as source for IPv4
+2026-01-19T12:01:31Z INF ICMP proxy will use :: as source for IPv6
+2026-01-19T12:01:31Z WRN The user running cloudflared process has a GID (group ID) that is not within ping_group_range. You might need to add that user to a group within that range, or instead update the range to encompass a group the user is already in by modifying /proc/sys/net/ipv4/ping_group_range. Otherwise cloudflared will not be able to ping this network error="open /proc/sys/net/ipv4/ping_group_range: permission denied"
+2026-01-19T12:01:32Z INF ICMP proxy will use 192.168.100.102 as source for IPv4
+2026-01-19T12:01:32Z INF ICMP proxy will use :: as source for IPv6
+2026-01-19T12:01:32Z INF Starting metrics server on 127.0.0.1:20241/metrics
+2026-01-19T12:01:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=0 event=0 ip=198.41.200.13
+2026-01-19T12:01:32Z INF Registered tunnel connection connIndex=0 connection=a55af068-61e0-41ad-a3d5-267d1be1490e event=0 ip=198.41.200.13 location=fra06 protocol=quic
+2026-01-19T12:01:32Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=1 event=0 ip=198.41.192.37
+2026-01-19T12:01:33Z INF Registered tunnel connection connIndex=1 connection=7b2d0da9-92f6-4398-b3e0-9774d94cda9e event=0 ip=198.41.192.37 location=bts01 protocol=quic
+2026-01-19T12:01:33Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=2 event=0 ip=198.41.192.7
+2026-01-19T12:01:34Z INF Registered tunnel connection connIndex=2 connection=095b1f37-8746-4fd4-9c79-337c3110667b event=0 ip=198.41.192.7 location=bts01 protocol=quic
+2026-01-19T12:01:34Z INF Tunnel connection curve preferences: [X25519MLKEM768 CurveP256] connIndex=3 event=0 ip=198.41.200.73
+2026-01-19T12:01:35Z INF Registered tunnel connection connIndex=3 connection=64d1f99d-272f-46df-9211-0846abfefcde event=0 ip=198.41.200.73 location=fra20 protocol=quic
+2026-01-19 12:02:05.273 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET / HTTP/1.1" 200
+2026-01-19 12:02:06.089 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CbpIPn_g.js HTTP/1.1" 304
+2026-01-19 12:02:06.124 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DbPAaj35.js HTTP/1.1" 304
+2026-01-19 12:02:06.135 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C1FmrZbK.js HTTP/1.1" 304
+2026-01-19 12:02:06.164 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B0aKtzpN.js HTTP/1.1" 304
+2026-01-19 12:02:06.190 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CWj6FrbW.js HTTP/1.1" 304
+2026-01-19 12:02:06.195 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CxBxmbxM.js HTTP/1.1" 304
+2026-01-19 12:02:06.215 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DtBwJrag.js HTTP/1.1" 304
+2026-01-19 12:02:06.225 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Cef1s1vS.js HTTP/1.1" 304
+2026-01-19 12:02:06.228 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/splash.png HTTP/1.1" 200
+2026-01-19 12:02:06.229 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/8WYl0Dy3.js HTTP/1.1" 304
+2026-01-19 12:02:06.240 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/custom.css HTTP/1.1" 200
+2026-01-19 12:02:06.241 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/loader.js HTTP/1.1" 200
+2026-01-19 12:02:06.242 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D-dubyUK.js HTTP/1.1" 304
+2026-01-19 12:02:06.243 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/entry/app.CXUtIg5v.js HTTP/1.1" 304
+2026-01-19 12:02:06.262 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/entry/start.DwVvTeeh.js HTTP/1.1" 304
+2026-01-19 12:02:06.267 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DhQBHKPK.js HTTP/1.1" 304
+2026-01-19 12:02:06.708 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /manifest.json HTTP/1.1" 200
+2026-01-19 12:02:06.717 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Confetti.CzQ_D5bi.css HTTP/1.1" 304
+2026-01-19 12:02:06.723 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Toaster.DKF17Rty.css HTTP/1.1" 304
+2026-01-19 12:02:06.739 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/0.Cyk3BMzz.js HTTP/1.1" 304
+2026-01-19 12:02:07.360 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CsaET4_R.js HTTP/1.1" 304
+2026-01-19 12:02:07.361 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D6HxSY24.js HTTP/1.1" 304
+2026-01-19 12:02:07.362 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/0.BkTPzmEp.css HTTP/1.1" 304
+2026-01-19 12:02:07.363 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/ConfirmDialog.DaQE45yT.css HTTP/1.1" 304
+2026-01-19 12:02:07.412 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CieBy_TP.js HTTP/1.1" 304
+2026-01-19 12:02:07.413 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BM84H5pP.js HTTP/1.1" 304
+2026-01-19 12:02:07.415 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B75sHMgC.js HTTP/1.1" 304
+2026-01-19 12:02:07.441 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BT28bLwl.js HTTP/1.1" 304
+2026-01-19 12:02:07.444 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DmTNmOsd.js HTTP/1.1" 304
+2026-01-19 12:02:07.445 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/UserMenu.X_EDr3Bi.css HTTP/1.1" 304
+2026-01-19 12:02:07.446 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Modal.CSlFhZkq.css HTTP/1.1" 304
+2026-01-19 12:02:07.447 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/XZMgsyez.js HTTP/1.1" 304
+2026-01-19 12:02:07.448 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DpXWboF5.js HTTP/1.1" 304
+2026-01-19 12:02:07.493 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/FileItem.CNBty9SB.css HTTP/1.1" 304
+2026-01-19 12:02:07.494 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/QjJsDpFa.js HTTP/1.1" 304
+2026-01-19 12:02:07.519 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bj3l_-zj.js HTTP/1.1" 304
+2026-01-19 12:02:07.579 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Cn7W6oSl.js HTTP/1.1" 304
+2026-01-19 12:02:07.604 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B1Cj3nBs.js HTTP/1.1" 304
+2026-01-19 12:02:07.645 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DCoUjvEf.js HTTP/1.1" 304
+2026-01-19 12:02:07.709 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B3gTqYNi.js HTTP/1.1" 304
+2026-01-19 12:02:07.732 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bg-yF4cK.js HTTP/1.1" 304
+2026-01-19 12:02:07.762 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CxvPj3pb.js HTTP/1.1" 304
+2026-01-19 12:02:07.774 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DA2002tP.js HTTP/1.1" 304
+2026-01-19 12:02:07.847 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DHQpwR2r.js HTTP/1.1" 304
+2026-01-19 12:02:07.916 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/i-Im-os4.js HTTP/1.1" 304
+2026-01-19 12:02:07.922 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CRiVJAB7.js HTTP/1.1" 304
+2026-01-19 12:02:07.965 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/LH-e7IkW.js HTTP/1.1" 304
+2026-01-19 12:02:08.010 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BlW6_CAt.js HTTP/1.1" 304
+2026-01-19 12:02:08.127 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Collapsible.BSTcku12.css HTTP/1.1" 304
+2026-01-19 12:02:08.435 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CepVL_7U.js HTTP/1.1" 304
+2026-01-19 12:02:08.486 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/s-ZOHZxb.js HTTP/1.1" 304
+2026-01-19 12:02:08.489 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Drawer.BBo9ZRVf.css HTTP/1.1" 304
+2026-01-19 12:02:08.527 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/KSRMdqXp.js HTTP/1.1" 304
+2026-01-19 12:02:08.539 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Skeleton.D68k68zP.css HTTP/1.1" 304
+2026-01-19 12:02:08.606 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DWs12XGo.js HTTP/1.1" 304
+2026-01-19 12:02:08.769 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Ctbvttv1.js HTTP/1.1" 304
+2026-01-19 12:02:08.776 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CaFREkKp.js HTTP/1.1" 304
+2026-01-19 12:02:08.777 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/ChTkfEcr.js HTTP/1.1" 304
+2026-01-19 12:02:08.854 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Czmx3fnX.js HTTP/1.1" 304
+2026-01-19 12:02:08.856 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B4oZRTyL.js HTTP/1.1" 304
+2026-01-19 12:02:08.860 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bfaq2Jpc.js HTTP/1.1" 304
+2026-01-19 12:02:08.862 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B0m50Wrc.js HTTP/1.1" 304
+2026-01-19 12:02:08.865 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BxO752OV.js HTTP/1.1" 304
+2026-01-19 12:02:08.935 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/I1CDPYOB.js HTTP/1.1" 304
+2026-01-19 12:02:09.026 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CI2bParh.js HTTP/1.1" 304
+2026-01-19 12:02:09.032 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Messages.BPOsJAE0.css HTTP/1.1" 200
+2026-01-19 12:02:09.035 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B9DZyRul.js HTTP/1.1" 304
+2026-01-19 12:02:09.076 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CiB29Aqe.js HTTP/1.1" 304
+2026-01-19 12:02:09.115 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CIMQjKYG.js HTTP/1.1" 304
+2026-01-19 12:02:09.117 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CPT_rNkL.js HTTP/1.1" 304
+2026-01-19 12:02:09.119 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DnypBwOK.js HTTP/1.1" 304
+2026-01-19 12:02:09.120 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D50nY2iI.js HTTP/1.1" 304
+2026-01-19 12:02:09.120 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BFTofnss.js HTTP/1.1" 304
+2026-01-19 12:02:09.121 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/FyFa0TfK.js HTTP/1.1" 304
+2026-01-19 12:02:09.122 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Efy6dCp2.js HTTP/1.1" 304
+2026-01-19 12:02:09.124 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C2zUrX5S.js HTTP/1.1" 304
+2026-01-19 12:02:09.124 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DYVezSX_.js HTTP/1.1" 304
+2026-01-19 12:02:09.125 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BT74UNZE.js HTTP/1.1" 304
+2026-01-19 12:02:09.125 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/0wqOCvwo.js HTTP/1.1" 304
+2026-01-19 12:02:09.144 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dkxt8TwS.js HTTP/1.1" 304
+2026-01-19 12:02:09.147 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C83syoBY.js HTTP/1.1" 304
+2026-01-19 12:02:09.152 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CMnsG-ps.js HTTP/1.1" 304
+2026-01-19 12:02:09.158 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BFmuJLeH.js HTTP/1.1" 304
+2026-01-19 12:02:09.161 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bq1nYjue.js HTTP/1.1" 304
+2026-01-19 12:02:09.243 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BjO3HhBo.js HTTP/1.1" 304
+2026-01-19 12:02:09.321 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C3aUuVTd.js HTTP/1.1" 304
+2026-01-19 12:02:09.335 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CN51-NxK.js HTTP/1.1" 304
+2026-01-19 12:02:09.389 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Di-ekoL6.js HTTP/1.1" 304
+2026-01-19 12:02:09.392 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DQfRr7yB.js HTTP/1.1" 304
+2026-01-19 12:02:09.417 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Deuh3KRp.js HTTP/1.1" 304
+2026-01-19 12:02:09.421 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B63Ry2UO.js HTTP/1.1" 304
+2026-01-19 12:02:09.477 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/8.D-Fg1X6s.js HTTP/1.1" 304
+2026-01-19 12:02:09.478 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BOKD5Kou.js HTTP/1.1" 304
+2026-01-19 12:02:09.481 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dao-C71w.js HTTP/1.1" 304
+2026-01-19 12:02:09.525 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bfc47y5P.js HTTP/1.1" 304
+2026-01-19 12:02:09.527 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/JXfXx3cP.js HTTP/1.1" 304
+2026-01-19 12:02:09.530 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B4docpcT.js HTTP/1.1" 304
+2026-01-19 12:02:09.532 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Cq42ZRln.js HTTP/1.1" 304
+2026-01-19 12:02:09.539 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CCyDuV1n.js HTTP/1.1" 304
+2026-01-19 12:02:09.572 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DUEzloFV.js HTTP/1.1" 304
+2026-01-19 12:02:09.596 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BCdDl-VT.js HTTP/1.1" 304
+2026-01-19 12:02:09.597 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BqgL6eQa.js HTTP/1.1" 304
+2026-01-19 12:02:09.601 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/28.tn0RQdqM.css HTTP/1.1" 304
+2026-01-19 12:02:09.603 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D3eM8xfd.js HTTP/1.1" 304
+2026-01-19 12:02:09.695 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/PRKuQlrt.js HTTP/1.1" 304
+2026-01-19 12:02:09.724 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DOWKdgXc.js HTTP/1.1" 304
+2026-01-19 12:02:09.791 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C-UcLPd1.js HTTP/1.1" 304
+2026-01-19 12:02:09.793 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CTPcBpL5.js HTTP/1.1" 304
+2026-01-19 12:02:09.802 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/RichTextInput.D0CG4PmL.css HTTP/1.1" 304
+2026-01-19 12:02:09.833 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Chat.Dkpsp2iL.css HTTP/1.1" 304
+2026-01-19 12:02:09.835 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Ba4FSOdZ.js HTTP/1.1" 200
+2026-01-19 12:02:09.837 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/XWNQ7UyT.js HTTP/1.1" 304
+2026-01-19 12:02:09.874 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CjFGpDcV.js HTTP/1.1" 304
+2026-01-19 12:02:09.875 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/IzBjbzL9.js HTTP/1.1" 304
+2026-01-19 12:02:09.877 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/A0hE2H0a.js HTTP/1.1" 304
+2026-01-19 12:02:09.880 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CGwCSIWv.js HTTP/1.1" 304
+2026-01-19 12:02:09.886 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/FPj3pwYN.js HTTP/1.1" 304
+2026-01-19 12:02:09.888 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B2XqHxj0.js HTTP/1.1" 304
+2026-01-19 12:02:09.943 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/2.BAdILA2v.js HTTP/1.1" 304
+2026-01-19 12:02:09.971 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/2.BpqbiIOH.css HTTP/1.1" 304
+2026-01-19 12:02:09.984 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BbJ_-BMy.js HTTP/1.1" 304
+2026-01-19 12:02:09.987 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CEI4h9ys.js HTTP/1.1" 304
+2026-01-19 12:02:10.010 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/OTRYe80G.js HTTP/1.1" 304
+2026-01-19 12:02:10.013 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/1.CYrOYZFa.js HTTP/1.1" 304
+2026-01-19 12:02:10.063 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CP6EIRCd.js HTTP/1.1" 304
+2026-01-19 12:02:10.099 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B8Zi6N3Q.js HTTP/1.1" 304
+2026-01-19 12:02:10.176 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/R7cNvzSA.js HTTP/1.1" 304
+2026-01-19 12:02:10.197 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bur6kAcg.js HTTP/1.1" 304
+2026-01-19 12:02:10.242 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/6ZxDGpPs.js HTTP/1.1" 304
+2026-01-19 12:02:10.281 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BD8fE4Jb.js HTTP/1.1" 304
+2026-01-19 12:02:10.302 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/dEXUfeqI.js HTTP/1.1" 304
+2026-01-19 12:02:10.304 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C6PNAvIx.js HTTP/1.1" 304
+2026-01-19 12:02:10.332 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BkIq4suy.js HTTP/1.1" 304
+2026-01-19 12:02:10.337 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B6ULik5d.js HTTP/1.1" 304
+2026-01-19 12:02:10.381 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/iaifgwmP.js HTTP/1.1" 304
+2026-01-19 12:02:10.383 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CW8ogf0p.js HTTP/1.1" 304
+2026-01-19 12:02:10.384 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DZakkrRD.js HTTP/1.1" 304
+2026-01-19 12:02:10.468 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dv1GBoB0.js HTTP/1.1" 304
+2026-01-19 12:02:10.495 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/pfIocJxt.js HTTP/1.1" 304
+2026-01-19 12:02:10.516 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B0WJJTCM.js HTTP/1.1" 304
+2026-01-19 12:02:10.528 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D52qNrtl.js HTTP/1.1" 304
+2026-01-19 12:02:10.534 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BsqyVvbV.js HTTP/1.1" 304
+2026-01-19 12:02:10.551 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/lCfDZ88e.js HTTP/1.1" 304
+2026-01-19 12:02:10.560 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BQWQRICs.js HTTP/1.1" 304
+2026-01-19 12:02:10.569 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/OV6VlyVM.js HTTP/1.1" 304
+2026-01-19 12:02:10.585 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CU2r43ac.js HTTP/1.1" 304
+2026-01-19 12:02:10.595 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BOLBI9yR.js HTTP/1.1" 304
+2026-01-19 12:02:10.601 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DLOCbBqr.js HTTP/1.1" 304
+2026-01-19 12:02:10.602 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DKuG6z3I.js HTTP/1.1" 304
+2026-01-19 12:02:10.603 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DCn39NXn.js HTTP/1.1" 304
+2026-01-19 12:02:10.610 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BeeUpJSY.js HTTP/1.1" 304
+2026-01-19 12:02:10.614 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dlc8dZfN.js HTTP/1.1" 304
+2026-01-19 12:02:10.615 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B5hTdmea.js HTTP/1.1" 304
+2026-01-19 12:02:10.625 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/TMjTJYdq.js HTTP/1.1" 304
+2026-01-19 12:02:10.626 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CXj0VzRI.js HTTP/1.1" 304
+2026-01-19 12:02:10.632 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DIPiV2tQ.js HTTP/1.1" 304
+2026-01-19 12:02:10.637 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CxwbzrnD.js HTTP/1.1" 304
+2026-01-19 12:02:11.242 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/config HTTP/1.1" 200
+2026-01-19 12:02:11.658 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/auths/ HTTP/1.1" 200
+2026-01-19 12:02:11.663 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/ChirlWvm.js HTTP/1.1" 304
+2026-01-19 12:02:11.896 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/config HTTP/1.1" 200
+2026-01-19 12:02:11.911 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2026-01-19 12:02:12.323 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2026-01-19 12:02:12.324 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version HTTP/1.1" 200
+2026-01-19 12:02:12.341 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/tools/ HTTP/1.1" 200
+2026-01-19 12:02:12.347 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2026-01-19 12:02:12.485 | INFO     | open_webui.routers.openai:get_all_models:477 - get_all_models()
+2026-01-19 12:02:12.486 | INFO     | open_webui.routers.ollama:get_all_models:331 - get_all_models()
+2026-01-19 12:02:12.520 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-19 12:02:12.534 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-19 12:02:12.690 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/models HTTP/1.1" 200
+2026-01-19 12:02:13.137 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version/updates HTTP/1.1" 200
+2026-01-19 12:02:13.530 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/tools/ HTTP/1.1" 200
+2026-01-19 12:02:13.537 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/users/04c13a8d-21ad-4667-b4fa-98fa47c601ee/profile/image HTTP/1.1" 200
+2026-01-19 12:02:13.540 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/functions/ HTTP/1.1" 200
+2026-01-19 12:02:13.542 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /assets/fonts/Archivo-Variable.ttf HTTP/1.1" 304
+2026-01-19 12:02:13.543 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /assets/fonts/Inter-Variable.ttf HTTP/1.1" 304
+2026-01-19 12:02:13.562 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=gpt-4o-mini&lang=en-GB HTTP/1.1" 200
+2026-01-19 12:02:13.563 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=undefined&lang=en-GB HTTP/1.1" 200
+2026-01-19 12:02:13.766 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/functions/ HTTP/1.1" 200
+2026-01-19 12:02:15.045 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/favicon.png HTTP/1.1" 200
+2026-01-19 12:02:16.159 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/29.BO6_Tzox.js HTTP/1.1" 304
+2026-01-19 12:02:16.160 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/7.CRpbAh1v.js HTTP/1.1" 304
+2026-01-19 12:02:17.342 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/34.DWTEAzoX.js HTTP/1.1" 304
+2026-01-19 12:02:17.343 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C_eNzEHB.js HTTP/1.1" 304
+2026-01-19 12:02:17.353 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B5t_8fHP.js HTTP/1.1" 304
+2026-01-19 12:02:17.363 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DrlOIw8i.js HTTP/1.1" 304
+2026-01-19 12:02:17.365 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CSCZxgK6.js HTTP/1.1" 304
+2026-01-19 12:02:17.365 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BpWqIegX.js HTTP/1.1" 200
+2026-01-19 12:02:17.739 | INFO     | open_webui.routers.openai:get_all_models:477 - get_all_models()
+2026-01-19 12:02:17.741 | INFO     | open_webui.routers.ollama:get_all_models:331 - get_all_models()
+2026-01-19 12:02:17.788 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/ HTTP/1.1" 200
+2026-01-19 12:02:17.839 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-19 12:02:17.902 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/list?page=1 HTTP/1.1" 200
+2026-01-19 12:02:17.920 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-19 12:02:17.971 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/models HTTP/1.1" 200
+2026-01-19 12:02:18.141 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/tags HTTP/1.1" 200
+2026-01-19 12:02:18.313 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=kens-resume-assistant&lang=en-GB HTTP/1.1" 200
+2026-01-19 12:02:25.338 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/31.CkM4Yu7o.js HTTP/1.1" 304
+2026-01-19 12:02:26.393 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /assets/fonts/Vazirmatn-Variable.ttf HTTP/1.1" 304
+2026-01-19 12:02:26.395 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-19 12:02:26.769 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-19 12:02:31.046 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/33.BURpiozC.js HTTP/1.1" 200
+2026-01-19 12:02:31.916 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/?share=true HTTP/1.1" 200
+2026-01-19 12:03:06.739 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.70it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  2.70it/s]
+2026-01-19 12:03:17.731 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "POST /api/v1/knowledge/create HTTP/1.1" 200
+2026-01-19 12:03:18.206 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C8KpN5mZ.js HTTP/1.1" 304
+2026-01-19 12:03:18.211 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C9hG3Zkg.js HTTP/1.1" 304
+2026-01-19 12:03:18.218 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CQQS61Rh.js HTTP/1.1" 304
+2026-01-19 12:03:18.682 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d HTTP/1.1" 200
+2026-01-19 12:03:18.847 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d/files?page=1 HTTP/1.1" 200
+2026-01-19 12:04:02.527 | INFO     | open_webui.routers.openai:get_all_models:477 - get_all_models()
+2026-01-19 12:04:02.527 | INFO     | open_webui.routers.ollama:get_all_models:331 - get_all_models()
+2026-01-19 12:04:02.568 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/ HTTP/1.1" 200
+2026-01-19 12:04:02.587 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-19 12:04:02.627 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-19 12:04:02.713 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/models HTTP/1.1" 200
+2026-01-19 12:04:02.837 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/list?page=1 HTTP/1.1" 200
+2026-01-19 12:04:03.066 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/tags HTTP/1.1" 200
+2026-01-19 12:04:03.260 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=kens-resume-assistant&lang=en-GB HTTP/1.1" 200
+2026-01-19 12:04:06.589 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-19 12:04:22.056 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-19 12:04:22.549 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-19 12:05:06.603 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-19 14:23:54.089 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-19 14:23:56.045 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version HTTP/1.1" 200
+2026-01-19 14:24:53.777 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-19 14:37:40.406 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-19 14:37:41.816 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version HTTP/1.1" 200
+2026-01-19 14:38:40.913 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+INFO  [alembic.runtime.migration] Context impl SQLiteImpl.
+INFO  [alembic.runtime.migration] Will assume non-transactional DDL.
+WARNI [open_webui.env] 
+
+WARNING: CORS_ALLOW_ORIGIN IS SET TO '*' - NOT RECOMMENDED FOR PRODUCTION DEPLOYMENTS.
+
+/root/Repos/Cat-Assistant/.venv/lib/python3.11/site-packages/pydub/utils.py:170: RuntimeWarning: Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work
+  warn("Couldn't find ffmpeg or avconv - defaulting to ffmpeg, but may not work", RuntimeWarning)
+WARNI [langchain_community.utils.user_agent] USER_AGENT environment variable not set, consider setting it to identify your requests.
+
+ ██████╗ ██████╗ ███████╗███╗   ██╗    ██╗    ██╗███████╗██████╗ ██╗   ██╗██╗
+██╔═══██╗██╔══██╗██╔════╝████╗  ██║    ██║    ██║██╔════╝██╔══██╗██║   ██║██║
+██║   ██║██████╔╝█████╗  ██╔██╗ ██║    ██║ █╗ ██║█████╗  ██████╔╝██║   ██║██║
+██║   ██║██╔═══╝ ██╔══╝  ██║╚██╗██║    ██║███╗██║██╔══╝  ██╔══██╗██║   ██║██║
+╚██████╔╝██║     ███████╗██║ ╚████║    ╚███╔███╔╝███████╗██████╔╝╚██████╔╝██║
+ ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═══╝     ╚══╝╚══╝ ╚══════╝╚═════╝  ╚═════╝ ╚═╝
+
+
+v0.7.2 - building the best AI user interface.
+
+https://github.com/open-webui/open-webui
+
+Fetching 30 files:   0%|          | 0/30 [00:00<?, ?it/s]Fetching 30 files: 100%|██████████| 30/30 [00:00<00:00, 10186.94it/s]
+INFO:     Started server process [9138]
+INFO:     Waiting for application startup.
+2026-01-20 07:52:43.399 | INFO     | open_webui.utils.logger:start_logger:166 - GLOBAL_LOG_LEVEL: INFO
+2026-01-20 07:52:43.400 | INFO     | open_webui.main:lifespan:604 - Installing external dependencies of functions and tools...
+2026-01-20 07:52:43.452 | INFO     | open_webui.utils.plugin:install_frontmatter_requirements:286 - No requirements found in frontmatter.
+2026-01-20 08:05:28.472 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET / HTTP/1.1" 200
+2026-01-20 08:05:29.315 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DhQBHKPK.js HTTP/1.1" 304
+2026-01-20 08:05:29.344 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CbpIPn_g.js HTTP/1.1" 304
+2026-01-20 08:05:29.357 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C1FmrZbK.js HTTP/1.1" 200
+2026-01-20 08:05:29.403 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DbPAaj35.js HTTP/1.1" 304
+2026-01-20 08:05:29.429 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D-dubyUK.js HTTP/1.1" 304
+2026-01-20 08:05:29.431 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B0aKtzpN.js HTTP/1.1" 200
+2026-01-20 08:05:29.438 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/splash.png HTTP/1.1" 200
+2026-01-20 08:05:29.439 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CWj6FrbW.js HTTP/1.1" 304
+2026-01-20 08:05:29.447 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CxBxmbxM.js HTTP/1.1" 200
+2026-01-20 08:05:29.462 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/entry/start.DwVvTeeh.js HTTP/1.1" 304
+2026-01-20 08:05:29.479 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Cef1s1vS.js HTTP/1.1" 304
+2026-01-20 08:05:29.482 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/loader.js HTTP/1.1" 200
+2026-01-20 08:05:29.496 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DtBwJrag.js HTTP/1.1" 200
+2026-01-20 08:05:29.499 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/8WYl0Dy3.js HTTP/1.1" 200
+2026-01-20 08:05:29.500 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/custom.css HTTP/1.1" 200
+2026-01-20 08:05:29.501 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/entry/app.CXUtIg5v.js HTTP/1.1" 200
+2026-01-20 08:05:29.848 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/0.Cyk3BMzz.js HTTP/1.1" 304
+2026-01-20 08:05:29.851 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CN51-NxK.js HTTP/1.1" 304
+2026-01-20 08:05:30.596 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /manifest.json HTTP/1.1" 200
+2026-01-20 08:05:30.643 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Confetti.CzQ_D5bi.css HTTP/1.1" 304
+2026-01-20 08:05:30.674 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/XZMgsyez.js HTTP/1.1" 304
+2026-01-20 08:05:30.676 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Skeleton.D68k68zP.css HTTP/1.1" 304
+2026-01-20 08:05:30.678 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bj3l_-zj.js HTTP/1.1" 304
+2026-01-20 08:05:30.679 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bfaq2Jpc.js HTTP/1.1" 304
+2026-01-20 08:05:30.716 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DmTNmOsd.js HTTP/1.1" 304
+2026-01-20 08:05:30.920 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/FileItem.CNBty9SB.css HTTP/1.1" 304
+2026-01-20 08:05:30.921 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/ConfirmDialog.DaQE45yT.css HTTP/1.1" 200
+2026-01-20 08:05:30.922 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CGwCSIWv.js HTTP/1.1" 200
+2026-01-20 08:05:30.923 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/0.BkTPzmEp.css HTTP/1.1" 200
+2026-01-20 08:05:30.923 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/OV6VlyVM.js HTTP/1.1" 304
+2026-01-20 08:05:30.956 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B75sHMgC.js HTTP/1.1" 200
+2026-01-20 08:05:30.957 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D6HxSY24.js HTTP/1.1" 200
+2026-01-20 08:05:30.959 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/UserMenu.X_EDr3Bi.css HTTP/1.1" 200
+2026-01-20 08:05:30.960 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DpXWboF5.js HTTP/1.1" 200
+2026-01-20 08:05:30.961 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DHQpwR2r.js HTTP/1.1" 200
+2026-01-20 08:05:30.962 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Messages.BPOsJAE0.css HTTP/1.1" 304
+2026-01-20 08:05:30.983 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Collapsible.BSTcku12.css HTTP/1.1" 304
+2026-01-20 08:05:30.986 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/QjJsDpFa.js HTTP/1.1" 200
+2026-01-20 08:05:30.987 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Modal.CSlFhZkq.css HTTP/1.1" 200
+2026-01-20 08:05:31.022 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C-UcLPd1.js HTTP/1.1" 304
+2026-01-20 08:05:31.028 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DOWKdgXc.js HTTP/1.1" 304
+2026-01-20 08:05:31.061 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BlW6_CAt.js HTTP/1.1" 304
+2026-01-20 08:05:31.123 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Ctbvttv1.js HTTP/1.1" 304
+2026-01-20 08:05:31.249 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BFmuJLeH.js HTTP/1.1" 304
+2026-01-20 08:05:31.250 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Toaster.DKF17Rty.css HTTP/1.1" 200
+2026-01-20 08:05:31.344 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C3aUuVTd.js HTTP/1.1" 304
+2026-01-20 08:05:31.345 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/KSRMdqXp.js HTTP/1.1" 200
+2026-01-20 08:05:31.391 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DA2002tP.js HTTP/1.1" 304
+2026-01-20 08:05:31.396 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CP6EIRCd.js HTTP/1.1" 200
+2026-01-20 08:05:31.430 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/PRKuQlrt.js HTTP/1.1" 304
+2026-01-20 08:05:31.432 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CI2bParh.js HTTP/1.1" 304
+2026-01-20 08:05:31.813 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CMnsG-ps.js HTTP/1.1" 200
+2026-01-20 08:05:31.886 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BT28bLwl.js HTTP/1.1" 304
+2026-01-20 08:05:31.998 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D52qNrtl.js HTTP/1.1" 304
+2026-01-20 08:05:32.062 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DWs12XGo.js HTTP/1.1" 200
+2026-01-20 08:05:32.063 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bq1nYjue.js HTTP/1.1" 304
+2026-01-20 08:05:32.064 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B8Zi6N3Q.js HTTP/1.1" 304
+2026-01-20 08:05:32.065 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B5hTdmea.js HTTP/1.1" 304
+2026-01-20 08:05:32.066 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/iaifgwmP.js HTTP/1.1" 304
+2026-01-20 08:05:32.067 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B4oZRTyL.js HTTP/1.1" 304
+2026-01-20 08:05:32.068 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B0m50Wrc.js HTTP/1.1" 304
+2026-01-20 08:05:32.136 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BqgL6eQa.js HTTP/1.1" 200
+2026-01-20 08:05:32.143 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dao-C71w.js HTTP/1.1" 200
+2026-01-20 08:05:32.145 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Chat.Dkpsp2iL.css HTTP/1.1" 304
+2026-01-20 08:05:32.190 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B9DZyRul.js HTTP/1.1" 200
+2026-01-20 08:05:32.248 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/XWNQ7UyT.js HTTP/1.1" 304
+2026-01-20 08:05:32.255 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bur6kAcg.js HTTP/1.1" 304
+2026-01-20 08:05:32.344 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/Drawer.BBo9ZRVf.css HTTP/1.1" 304
+2026-01-20 08:05:32.440 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CiB29Aqe.js HTTP/1.1" 200
+2026-01-20 08:05:32.441 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BM84H5pP.js HTTP/1.1" 200
+2026-01-20 08:05:32.467 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BOLBI9yR.js HTTP/1.1" 200
+2026-01-20 08:05:32.470 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/OTRYe80G.js HTTP/1.1" 304
+2026-01-20 08:05:32.490 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CsaET4_R.js HTTP/1.1" 304
+2026-01-20 08:05:32.491 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/28.tn0RQdqM.css HTTP/1.1" 304
+2026-01-20 08:05:32.492 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CIMQjKYG.js HTTP/1.1" 304
+2026-01-20 08:05:32.520 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dkxt8TwS.js HTTP/1.1" 304
+2026-01-20 08:05:32.521 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/ChTkfEcr.js HTTP/1.1" 200
+2026-01-20 08:05:32.526 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Czmx3fnX.js HTTP/1.1" 200
+2026-01-20 08:05:32.572 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Efy6dCp2.js HTTP/1.1" 304
+2026-01-20 08:05:32.574 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C2zUrX5S.js HTTP/1.1" 304
+2026-01-20 08:05:32.576 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CepVL_7U.js HTTP/1.1" 304
+2026-01-20 08:05:32.618 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BFTofnss.js HTTP/1.1" 304
+2026-01-20 08:05:32.622 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D50nY2iI.js HTTP/1.1" 304
+2026-01-20 08:05:32.624 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DQfRr7yB.js HTTP/1.1" 304
+2026-01-20 08:05:32.653 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CRiVJAB7.js HTTP/1.1" 304
+2026-01-20 08:05:32.664 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CieBy_TP.js HTTP/1.1" 304
+2026-01-20 08:05:32.783 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/1.CYrOYZFa.js HTTP/1.1" 304
+2026-01-20 08:05:32.884 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/RichTextInput.D0CG4PmL.css HTTP/1.1" 304
+2026-01-20 08:05:32.886 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B1Cj3nBs.js HTTP/1.1" 200
+2026-01-20 08:05:32.887 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DYVezSX_.js HTTP/1.1" 200
+2026-01-20 08:05:32.888 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/FyFa0TfK.js HTTP/1.1" 200
+2026-01-20 08:05:32.927 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/0wqOCvwo.js HTTP/1.1" 200
+2026-01-20 08:05:32.928 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CPT_rNkL.js HTTP/1.1" 200
+2026-01-20 08:05:32.929 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DnypBwOK.js HTTP/1.1" 200
+2026-01-20 08:05:32.933 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/D3eM8xfd.js HTTP/1.1" 304
+2026-01-20 08:05:32.946 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DUEzloFV.js HTTP/1.1" 304
+2026-01-20 08:05:32.947 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Ba4FSOdZ.js HTTP/1.1" 304
+2026-01-20 08:05:32.948 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C83syoBY.js HTTP/1.1" 200
+2026-01-20 08:05:32.949 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/8.D-Fg1X6s.js HTTP/1.1" 200
+2026-01-20 08:05:32.950 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BT74UNZE.js HTTP/1.1" 200
+2026-01-20 08:05:32.950 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/LH-e7IkW.js HTTP/1.1" 304
+2026-01-20 08:05:32.964 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B6ULik5d.js HTTP/1.1" 304
+2026-01-20 08:05:32.965 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Deuh3KRp.js HTTP/1.1" 200
+2026-01-20 08:05:32.973 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C6PNAvIx.js HTTP/1.1" 304
+2026-01-20 08:05:32.991 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Di-ekoL6.js HTTP/1.1" 200
+2026-01-20 08:05:33.007 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/I1CDPYOB.js HTTP/1.1" 200
+2026-01-20 08:05:33.029 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BD8fE4Jb.js HTTP/1.1" 304
+2026-01-20 08:05:33.030 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bg-yF4cK.js HTTP/1.1" 304
+2026-01-20 08:05:33.030 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/JXfXx3cP.js HTTP/1.1" 304
+2026-01-20 08:05:33.040 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/R7cNvzSA.js HTTP/1.1" 200
+2026-01-20 08:05:33.060 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BeeUpJSY.js HTTP/1.1" 200
+2026-01-20 08:05:33.061 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CCyDuV1n.js HTTP/1.1" 200
+2026-01-20 08:05:33.092 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Bfc47y5P.js HTTP/1.1" 304
+2026-01-20 08:05:33.094 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BCdDl-VT.js HTTP/1.1" 200
+2026-01-20 08:05:33.095 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CTPcBpL5.js HTTP/1.1" 200
+2026-01-20 08:05:33.096 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B4docpcT.js HTTP/1.1" 200
+2026-01-20 08:05:33.097 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Cq42ZRln.js HTTP/1.1" 200
+2026-01-20 08:05:33.098 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/FPj3pwYN.js HTTP/1.1" 304
+2026-01-20 08:05:33.147 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/2.BAdILA2v.js HTTP/1.1" 304
+2026-01-20 08:05:33.152 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B63Ry2UO.js HTTP/1.1" 200
+2026-01-20 08:05:33.181 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/2.BpqbiIOH.css HTTP/1.1" 304
+2026-01-20 08:05:33.185 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BbJ_-BMy.js HTTP/1.1" 304
+2026-01-20 08:05:33.186 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B3gTqYNi.js HTTP/1.1" 304
+2026-01-20 08:05:33.187 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BxO752OV.js HTTP/1.1" 304
+2026-01-20 08:05:33.221 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/IzBjbzL9.js HTTP/1.1" 304
+2026-01-20 08:05:33.311 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Cn7W6oSl.js HTTP/1.1" 200
+2026-01-20 08:05:33.341 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CaFREkKp.js HTTP/1.1" 304
+2026-01-20 08:05:33.418 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/A0hE2H0a.js HTTP/1.1" 200
+2026-01-20 08:05:33.513 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CEI4h9ys.js HTTP/1.1" 200
+2026-01-20 08:05:33.529 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/s-ZOHZxb.js HTTP/1.1" 304
+2026-01-20 08:05:33.531 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/i-Im-os4.js HTTP/1.1" 200
+2026-01-20 08:05:33.532 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/6ZxDGpPs.js HTTP/1.1" 200
+2026-01-20 08:05:33.551 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DCoUjvEf.js HTTP/1.1" 200
+2026-01-20 08:05:33.552 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B2XqHxj0.js HTTP/1.1" 200
+2026-01-20 08:05:33.596 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dv1GBoB0.js HTTP/1.1" 304
+2026-01-20 08:05:33.650 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BOKD5Kou.js HTTP/1.1" 200
+2026-01-20 08:05:33.654 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CXj0VzRI.js HTTP/1.1" 304
+2026-01-20 08:05:33.663 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BjO3HhBo.js HTTP/1.1" 200
+2026-01-20 08:05:33.668 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DKuG6z3I.js HTTP/1.1" 304
+2026-01-20 08:05:33.701 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DIPiV2tQ.js HTTP/1.1" 304
+2026-01-20 08:05:33.718 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CxvPj3pb.js HTTP/1.1" 200
+2026-01-20 08:05:33.723 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/lCfDZ88e.js HTTP/1.1" 304
+2026-01-20 08:05:33.726 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DZakkrRD.js HTTP/1.1" 304
+2026-01-20 08:05:33.731 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/pfIocJxt.js HTTP/1.1" 200
+2026-01-20 08:05:33.744 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CW8ogf0p.js HTTP/1.1" 200
+2026-01-20 08:05:33.747 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BsqyVvbV.js HTTP/1.1" 200
+2026-01-20 08:05:33.788 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DLOCbBqr.js HTTP/1.1" 304
+2026-01-20 08:05:33.826 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CU2r43ac.js HTTP/1.1" 200
+2026-01-20 08:05:33.840 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CxwbzrnD.js HTTP/1.1" 200
+2026-01-20 08:05:33.855 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BQWQRICs.js HTTP/1.1" 200
+2026-01-20 08:05:33.856 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/TMjTJYdq.js HTTP/1.1" 200
+2026-01-20 08:05:33.864 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B0WJJTCM.js HTTP/1.1" 200
+2026-01-20 08:05:33.865 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/Dlc8dZfN.js HTTP/1.1" 200
+2026-01-20 08:05:33.866 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/dEXUfeqI.js HTTP/1.1" 200
+2026-01-20 08:05:33.869 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BkIq4suy.js HTTP/1.1" 200
+2026-01-20 08:05:33.871 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DCn39NXn.js HTTP/1.1" 200
+2026-01-20 08:05:33.878 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CjFGpDcV.js HTTP/1.1" 200
+2026-01-20 08:05:34.743 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/config HTTP/1.1" 200
+2026-01-20 08:05:35.277 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/auths/ HTTP/1.1" 200
+2026-01-20 08:05:35.290 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/ChirlWvm.js HTTP/1.1" 200
+2026-01-20 08:05:35.453 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/config HTTP/1.1" 200
+2026-01-20 08:05:35.456 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2026-01-20 08:05:35.893 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version HTTP/1.1" 200
+2026-01-20 08:05:35.899 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/configs/banners HTTP/1.1" 200
+2026-01-20 08:05:35.906 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/users/user/settings HTTP/1.1" 200
+2026-01-20 08:05:35.907 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/tools/ HTTP/1.1" 200
+2026-01-20 08:05:36.084 | INFO     | open_webui.routers.openai:get_all_models:477 - get_all_models()
+2026-01-20 08:05:36.084 | INFO     | open_webui.routers.ollama:get_all_models:331 - get_all_models()
+2026-01-20 08:05:36.111 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-20 08:05:36.120 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-20 08:05:36.313 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/models HTTP/1.1" 200
+2026-01-20 08:05:36.708 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version/updates HTTP/1.1" 200
+2026-01-20 08:05:37.044 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/functions/ HTTP/1.1" 200
+2026-01-20 08:05:37.050 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/tools/ HTTP/1.1" 200
+2026-01-20 08:05:37.053 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /assets/fonts/Inter-Variable.ttf HTTP/1.1" 304
+2026-01-20 08:05:37.055 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/users/04c13a8d-21ad-4667-b4fa-98fa47c601ee/profile/image HTTP/1.1" 200
+2026-01-20 08:05:37.085 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=undefined&lang=en-GB HTTP/1.1" 200
+2026-01-20 08:05:37.086 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=gpt-4o-mini&lang=en-GB HTTP/1.1" 200
+2026-01-20 08:05:37.093 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /assets/fonts/Archivo-Variable.ttf HTTP/1.1" 200
+2026-01-20 08:05:37.161 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/functions/ HTTP/1.1" 200
+2026-01-20 08:05:43.666 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /static/favicon.png HTTP/1.1" 200
+2026-01-20 08:05:45.222 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/chats/all/tags HTTP/1.1" 200
+2026-01-20 08:05:45.230 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/folders/ HTTP/1.1" 200
+2026-01-20 08:05:45.368 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/chats/pinned HTTP/1.1" 200
+2026-01-20 08:05:45.633 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/chats/?page=1 HTTP/1.1" 200
+2026-01-20 08:05:46.147 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /assets/fonts/Vazirmatn-Variable.ttf HTTP/1.1" 304
+2026-01-20 08:05:46.151 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/chats/?page=2 HTTP/1.1" 200
+2026-01-20 08:05:47.002 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/chats/cd090490-1743-43c9-beab-255f2e236e0d HTTP/1.1" 200
+2026-01-20 08:05:47.075 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/21.CDbd2DRC.js HTTP/1.1" 304
+2026-01-20 08:05:48.197 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/7.CRpbAh1v.js HTTP/1.1" 304
+2026-01-20 08:05:48.207 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/29.BO6_Tzox.js HTTP/1.1" 304
+2026-01-20 08:05:48.688 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/B5t_8fHP.js HTTP/1.1" 304
+2026-01-20 08:05:48.726 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C_eNzEHB.js HTTP/1.1" 304
+2026-01-20 08:05:48.743 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CSCZxgK6.js HTTP/1.1" 304
+2026-01-20 08:05:48.744 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/DrlOIw8i.js HTTP/1.1" 304
+2026-01-20 08:05:48.752 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/BpWqIegX.js HTTP/1.1" 304
+2026-01-20 08:05:48.757 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/34.DWTEAzoX.js HTTP/1.1" 200
+2026-01-20 08:05:49.068 | INFO     | open_webui.routers.openai:get_all_models:477 - get_all_models()
+2026-01-20 08:05:49.069 | INFO     | open_webui.routers.ollama:get_all_models:331 - get_all_models()
+2026-01-20 08:05:49.137 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/ HTTP/1.1" 200
+2026-01-20 08:05:49.164 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-20 08:05:49.182 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-20 08:05:49.307 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/list?page=1 HTTP/1.1" 200
+2026-01-20 08:05:49.317 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/models HTTP/1.1" 200
+2026-01-20 08:05:49.498 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/tags HTTP/1.1" 200
+2026-01-20 08:05:49.708 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=kens-resume-assistant&lang=en-GB HTTP/1.1" 200
+2026-01-20 08:05:52.265 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/31.CkM4Yu7o.js HTTP/1.1" 304
+2026-01-20 08:05:52.557 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:05:52.948 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:05:55.557 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/32.DhcYMqjR.js HTTP/1.1" 200
+2026-01-20 08:05:55.558 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CQQS61Rh.js HTTP/1.1" 304
+2026-01-20 08:05:55.564 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C8KpN5mZ.js HTTP/1.1" 304
+2026-01-20 08:05:55.570 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/C9hG3Zkg.js HTTP/1.1" 200
+2026-01-20 08:05:55.571 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/assets/32.C1MAhTuQ.css HTTP/1.1" 200
+2026-01-20 08:05:55.577 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/chunks/CwEve5o4.js HTTP/1.1" 200
+2026-01-20 08:05:55.961 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d HTTP/1.1" 200
+2026-01-20 08:05:56.250 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d/files?page=1 HTTP/1.1" 200
+2026-01-20 08:06:30.127 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-20 08:22:42.718 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-20 08:22:44.019 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version HTTP/1.1" 200
+2026-01-20 08:23:43.043 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-20 08:30:32.516 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-20 08:30:33.607 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/version HTTP/1.1" 200
+2026-01-20 08:30:34.146 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:30:34.545 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:30:36.482 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/770f43fe-d5d6-4dc4-ab54-b191e71cc572 HTTP/1.1" 200
+2026-01-20 08:30:36.703 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/770f43fe-d5d6-4dc4-ab54-b191e71cc572/files?page=1 HTTP/1.1" 200
+2026-01-20 08:30:41.497 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/immutable/nodes/37.DEZZAG_o.js HTTP/1.1" 304
+2026-01-20 08:30:42.707 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:30:43.139 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:30:45.802 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d HTTP/1.1" 200
+2026-01-20 08:30:45.973 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d/files?page=1 HTTP/1.1" 200
+2026-01-20 08:30:47.757 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:30:48.181 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:31:32.200 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-20 08:32:00.788 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/770f43fe-d5d6-4dc4-ab54-b191e71cc572 HTTP/1.1" 200
+2026-01-20 08:32:00.964 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/770f43fe-d5d6-4dc4-ab54-b191e71cc572/files?page=1 HTTP/1.1" 200
+2026-01-20 08:32:21.021 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:32:21.477 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:32:28.423 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d HTTP/1.1" 200
+2026-01-20 08:32:28.583 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/59896fb2-f833-4544-9f68-d21b1da7e62d/files?page=1 HTTP/1.1" 200
+2026-01-20 08:32:30.299 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/?share=true HTTP/1.1" 200
+2026-01-20 08:32:32.000 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200
+2026-01-20 08:32:34.387 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:32:34.893 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:32:36.094 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/770f43fe-d5d6-4dc4-ab54-b191e71cc572 HTTP/1.1" 200
+2026-01-20 08:32:36.386 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/770f43fe-d5d6-4dc4-ab54-b191e71cc572/files?page=1 HTTP/1.1" 200
+2026-01-20 08:32:37.618 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/?share=true HTTP/1.1" 200
+2026-01-20 08:32:42.659 | INFO     | open_webui.routers.openai:get_all_models:477 - get_all_models()
+2026-01-20 08:32:42.661 | INFO     | open_webui.routers.ollama:get_all_models:331 - get_all_models()
+2026-01-20 08:32:42.720 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/groups/ HTTP/1.1" 200
+2026-01-20 08:32:42.728 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-20 08:32:42.771 | ERROR    | open_webui.routers.ollama:send_get_request:102 - Connection error: Cannot connect to host localhost:11434 ssl:default [Multiple exceptions: [Errno 111] Connect call failed ('::1', 11434, 0, 0), [Errno 111] Connect call failed ('127.0.0.1', 11434)]
+2026-01-20 08:32:42.775 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/list?page=1 HTTP/1.1" 200
+2026-01-20 08:32:42.938 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/models HTTP/1.1" 200
+2026-01-20 08:32:43.041 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/tags HTTP/1.1" 200
+2026-01-20 08:32:43.245 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/models/model/profile/image?id=kens-resume-assistant&lang=en-GB HTTP/1.1" 200
+2026-01-20 08:32:45.212 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=1 HTTP/1.1" 200
+2026-01-20 08:32:45.742 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /api/v1/knowledge/search?page=2 HTTP/1.1" 200
+2026-01-20 08:33:33.158 | INFO     | uvicorn.protocols.http.httptools_impl:send:483 - 92.180.232.111:0 - "GET /_app/version.json HTTP/1.1" 200

@@ -10,10 +10,10 @@ dependencies = [
     "returns",
     "pydantic",
     "dependency-injector",
-    "httpx",
     "structlog",
     "dotenv",
     "open_webui",
+    "httpx>=0.28.1",
 ]
 
 [tool.setuptools.packages.find]
